@@ -7,10 +7,55 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  background-color: #3b5998;
+  color: white;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.register {
+  width: 60px;
+  height: 25px;
+  margin-left: 10px;
+  color: white;
+  border: none;
+  background-color:#42b72a;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  width: 0px;  
+  height: 0px;  
+  border-width: 8px;  
+  border-style: solid;  
+  border-color: white transparent transparent  transparent;
+  margin: 10px 0 0 10px;
 }
 
 ul {
